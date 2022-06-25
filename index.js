@@ -51,7 +51,7 @@ const concesionaria = {
     let autosQueSi = []
     for(const i of autos){
     if(concesionaria.puedeComprar(i,persona) == true ){
-       autosQueSi.push(i)
+       autosQueSi.push(i) 
             }
         }
         return autosQueSi; 
